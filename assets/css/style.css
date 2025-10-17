@@ -89,25 +89,30 @@
     width: 50%;
 }
 
-#txtDiscover,
+.precedent,
+.suivant {
+    cursor: pointer;
+}
+
+.txtDiscover,
 #txtAbout {
     padding: 4rem 2rem;
 }
 
-#txtDiscover h2 {
+.txtDiscover h2 {
     font-size: 2rem;
     font-weight: bolder;
     line-height: 2rem;
     margin-bottom: 1rem;
 }
 
-#txtDiscover p {
+.txtDiscover p {
     color: rgb(172, 172, 172);
     line-height: 1.2rem;
     margin-bottom: 2rem;
 }
 
-#txtDiscover button {
+.txtDiscover button {
     letter-spacing: .7rem;
     background-color: white;
     border: none;
@@ -181,7 +186,7 @@ h2 {
         background-image: url("../img/desktop-image-hero-1.jpg");
     }
 
-    #txtDiscover {
+    .txtDiscover {
         width: 40vw;
     }
 
@@ -213,7 +218,7 @@ h2 {
         left: 60vw;
     }
 
-    #txtDiscover {
+    .txtDiscover {
         padding: 1rem .5rem;
     }
 }
@@ -231,7 +236,7 @@ h2 {
         padding: 2rem 2rem;
     }
 
-    #txtDiscover {
+    .txtDiscover {
         padding: 4rem 2rem;
     }
 }
