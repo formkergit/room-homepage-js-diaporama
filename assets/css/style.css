@@ -89,6 +89,11 @@
     width: 50%;
 }
 
+#previous,
+#next {
+    cursor: pointer;
+}
+
 #txtDiscover,
 #txtAbout {
     padding: 4rem 2rem;
