@@ -1,4 +1,4 @@
-const slideTexts = document.querySelectorAll("#txtDiscover");
+const slideTexts = document.querySelectorAll(".txtDiscover");
 const slideBackground = document.querySelector("#imgDiscover");
 const previous = document.querySelector("#previous");
 const next = document.querySelector("#next");
